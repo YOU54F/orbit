@@ -12,6 +12,8 @@ jobs:
           - you54f
           - cypress-slack-reporter
           - cypress-multi-reporters
+          - pact
+          - pactflow
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
